@@ -1,0 +1,27 @@
+<div class="login-container">
+  <div class="login-content">
+    <div class="login-image">
+      <img src="https://via.placeholder.com/150" alt="Login image" />
+    </div>
+
+    <div class="login-form">
+      <h1>Bienvenido</h1>
+      <p>
+        Para usar la aplicación, por favor inicia sesión o
+        <a routerLink="/register">regístrate</a>
+      </p>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Correo Electrónico</mat-label>
+        <input placeholder="ejemplo@correo.com" type="email" [(ngModel)]="signin.email">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input placeholder="Contraseña" type="password" [(ngModel)]="signin.password">
+      </mat-form-field>
+
+      <button mat-raised-button color="primary">Log In</button>
+    </div>
+  </div>
+</div>

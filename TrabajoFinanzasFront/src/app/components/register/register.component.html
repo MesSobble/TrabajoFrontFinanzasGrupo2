@@ -1,0 +1,48 @@
+<div class="register-container">
+  <div class="register-content">
+    <div class="register-image">
+      <img src="https://via.placeholder.com/150" alt="Register image" />
+    </div>
+
+    <div class="register-form">
+      <h1>Crear cuenta</h1>
+      <p>
+        Para empezar a usar la aplicación, por favor regístrate o
+        <a routerLink="/signin">inicia sesión</a>
+      </p>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Usuario</mat-label>
+        <input placeholder="Nombre de usuario" type="text" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Correo Electrónico</mat-label>
+        <input placeholder="ejemplo@correo.com" type="email" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Número de Teléfono</mat-label>
+        <input placeholder="123-456-7890" type="tel" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input placeholder="Contraseña" type="password" />
+      </mat-form-field>
+
+      <div class="password-info">
+        <p>La contraseña debe tener:</p>
+        <ul>
+          <li>Un carácter en mayúsculas y otro en minúsculas</li>
+          <li>Un número</li>
+          <li>Un carácter especial</li>
+          <li>8 caracteres mínimo</li>
+        </ul>
+      </div>
+
+      <button color="primary">Regístrate</button>
+    </div>
+  </div>
+</div>
+
